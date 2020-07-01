@@ -1,9 +1,7 @@
 package shop;
 
 import shop.menu.Menu;
-import shop.menu.pizza.DeepDishPizza;
-import shop.menu.pizza.NYStylePizza;
-import shop.menu.pizza.Pizza;
+import shop.menu.pizza.*;
 import shop.menu.pizza.topping.*;
 
 public class Main {
@@ -14,6 +12,8 @@ public class Main {
         Menu menu = new Menu();
         menu.addItem(new NYStylePizza());
         menu.addItem(new DeepDishPizza());
+        menu.addItem(new PanPizza());
+        menu.addItem(new StuffedCrustPizza());
         menu.show();
 
         System.out.println("\n\n\n");

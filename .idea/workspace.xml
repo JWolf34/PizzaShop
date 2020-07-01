@@ -10,7 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Added more toppings" />
+    <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="UIDesigner">
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/PanPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/StuffedCrustPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/META-INF/PizzaShop.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/DeepDishPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/DeepDishPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/NYStylePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/NYStylePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="InitToppings" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,21 +51,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="shop" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="shop.menu.pizza" />
       <recent name="com.company" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="shop.Main" />
       <module name="PizzaShop" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593570224508</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="UIDesigner">
+      <created>1593576354586</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593576354586</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,37 +170,54 @@
     <MESSAGE value="Improved readability of printed pizza with toppings" />
     <MESSAGE value="Added basic toppings" />
     <MESSAGE value="Added more toppings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more toppings" />
+    <MESSAGE value="UIDesigner" />
+    <option name="LAST_COMMIT_MESSAGE" value="UIDesigner" />
   </component>
   <component name="WindowStateProjectService">
     <state x="977" y="303" key="#Main" timestamp="1593570533043">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="977" y="303" key="#Main/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570533043" />
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593577783457">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593577783457" />
     <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1593564504292">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593564504292" />
+    <state x="1009" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593577771244">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1009" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593577771244" />
+    <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593577557995">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593577557995" />
+    <state x="996" y="518" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1593577527972">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="996" y="518" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593577527972" />
     <state x="1060" y="441" key="FileChooserDialogImpl" timestamp="1593570477596">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="441" key="FileChooserDialogImpl/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570477596" />
-    <state width="2517" height="266" key="GridCell.Tab.0.bottom" timestamp="1593570567405">
+    <state width="1258" height="266" key="GridCell.Tab.0.bottom" timestamp="1593577837246">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570567405" />
-    <state width="2517" height="266" key="GridCell.Tab.0.center" timestamp="1593570567405">
+    <state width="1258" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593577837246" />
+    <state width="1258" height="266" key="GridCell.Tab.0.center" timestamp="1593577837246">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570567405" />
-    <state width="2517" height="266" key="GridCell.Tab.0.left" timestamp="1593570567405">
+    <state width="1258" height="266" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593577837246" />
+    <state width="1258" height="266" key="GridCell.Tab.0.left" timestamp="1593577837246">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570567405" />
-    <state width="2517" height="266" key="GridCell.Tab.0.right" timestamp="1593570567405">
+    <state width="1258" height="266" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593577837246" />
+    <state width="1258" height="266" key="GridCell.Tab.0.right" timestamp="1593577837246">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570567405" />
+    <state width="1258" height="266" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593577837246" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1593563521761">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -199,14 +238,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="860" y="443" key="IDE.errors.dialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570698354" />
-    <state x="781" y="345" key="SettingsEditor" timestamp="1593571014150">
+    <state x="918" y="461" key="MultipleFileMergeDialog" timestamp="1593576372843">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593571014150" />
+    <state x="918" y="461" key="MultipleFileMergeDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593576372843" />
+    <state x="1035" y="402" key="RollbackChangesDialog" timestamp="1593576325901">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1035" y="402" key="RollbackChangesDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593576325901" />
+    <state x="781" y="345" key="SettingsEditor" timestamp="1593577707777">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593577707777" />
     <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1593570245443">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570245443" />
+    <state x="1007" y="488" key="git4idea.merge.GitPullDialog" timestamp="1593576362599">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1007" y="488" key="git4idea.merge.GitPullDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593576362599" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1593489173199">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
