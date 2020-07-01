@@ -10,11 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Refactored to create more readable package structure">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" afterDir="false" />
+    <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Added some documentation to Pizza and its subclasses">
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/MenuItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,15 +21,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Refactoring" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -155,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593571613961</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added some documentation to Pizza and its subclasses">
+      <created>1593573409112</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593573409112</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +182,8 @@
     <MESSAGE value="Added more toppings" />
     <MESSAGE value="XML basics" />
     <MESSAGE value="Refactored to create more readable package structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored to create more readable package structure" />
+    <MESSAGE value="Added some documentation to Pizza and its subclasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some documentation to Pizza and its subclasses" />
   </component>
   <component name="WindowStateProjectService">
     <state x="977" y="303" key="#Main" timestamp="1593570533043">
@@ -249,10 +254,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593571014150" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1593570245443">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1593573425338">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570245443" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593573425338" />
     <state x="-1928" y="201" width="1703" height="1068" maximized="true" key="dock-window-1" timestamp="1593572183089">
       <screen x="-1920" y="209" width="1920" height="1040" />
     </state>

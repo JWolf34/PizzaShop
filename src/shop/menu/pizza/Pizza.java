@@ -1,16 +1,19 @@
 package shop.menu.pizza;
 
+import shop.menu.MenuItem;
 import shop.menu.pizza.topping.Topping;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public abstract class Pizza {
+public abstract class Pizza implements MenuItem {
 
     double price;
     String size;
+    int calories;
     List<Topping> toppings = new ArrayList<Topping>();
     Map<String, Double> priceBySize = new HashMap<String, Double>();
 
@@ -55,6 +58,8 @@ public abstract class Pizza {
     public abstract double getPrice();
 
     public abstract String getSize();
+
+    public abstract int getCalories();
 
     /**
      * Returns a longer String that is represented by the single char {@param size}. Used for

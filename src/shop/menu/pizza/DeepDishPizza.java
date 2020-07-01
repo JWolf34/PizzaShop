@@ -11,6 +11,7 @@ public class DeepDishPizza extends Pizza {
 
     double price;
     String size;
+    int calories;
     List<Topping> toppings = new ArrayList<Topping>();
     Map<String, Double> priceBySize = new HashMap<String, Double>();
 
@@ -47,6 +48,11 @@ public class DeepDishPizza extends Pizza {
     @Override
     public String getSize() {
         return this.size;
+    }
+
+    @Override
+    public int getCalories() {
+        return this.calories;
     }
 
     public void populatePriceMap(){
