@@ -4,22 +4,30 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class NYStylePizza extends Pizza {
 
     double price;
     String size;
-    List<String> toppings = new ArrayList<String>();
+    List<Topping> toppings = new ArrayList<Topping>();
     Map<String, Double> priceBySize = new HashMap<String, Double>();
 
-    public NYStylePizza(String size){
+    public NYStylePizza(String size, Topping... toppings){
         populatePriceMap();
         this.size = size;
         this.price = priceBySize.get(this.size);
+
+        if(toppings.length > 0){
+            for (Topping top : toppings) {
+                this.toppings.add(top);
+
+            }
+        }
     }
 
     @Override
-    public void addTopping(String top) {
+    public void addTopping(Topping top) {
         toppings.add(top);
     }
 
@@ -30,12 +38,12 @@ public class NYStylePizza extends Pizza {
 
     @Override
     public double getPrice() {
-        return price;
-    }
+       return this.price;
+    };
 
     @Override
     public String getSize() {
-        return size;
+        return this.size;
     }
 
     public void populatePriceMap(){
@@ -47,6 +55,6 @@ public class NYStylePizza extends Pizza {
 
     public String toString(){
 
-        return String.join("", this.getSizeString(this.size), " New York Style pizza with ", String.join(", ", toppings));
+        return String.format("%s New York Style pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
     };
 }
