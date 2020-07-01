@@ -15,6 +15,11 @@ public class DeepDishPizza extends Pizza {
     List<Topping> toppings = new ArrayList<Topping>();
     Map<String, Double> priceBySize = new HashMap<String, Double>();
 
+    /**
+     * Blank constructor to initialize class for display from {@code Menu}.
+     */
+    public DeepDishPizza(){};
+
     public DeepDishPizza(String size, Topping... toppings){
         populatePriceMap();
         this.size = size;
@@ -54,6 +59,12 @@ public class DeepDishPizza extends Pizza {
     public int getCalories() {
         return this.calories;
     }
+
+    @Override
+    public String getItemName() {
+        return "Deep dish pizza";
+    }
+
 
     public void populatePriceMap(){
         priceBySize.put("S", 10.00);

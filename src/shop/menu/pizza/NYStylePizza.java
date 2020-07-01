@@ -16,6 +16,11 @@ public class NYStylePizza extends Pizza {
     Map<String, Double> priceBySize = new HashMap<String, Double>();
 
     /**
+     * Blank constructor to initialize class for display from {@code Menu}.
+     */
+    public NYStylePizza(){};
+
+    /**
      * Creates a NYStylePizza of size <var>size</var> and with toppings <var>toppings</var>.
      * Populates the
      *
@@ -65,6 +70,11 @@ public class NYStylePizza extends Pizza {
     @Override
     public int getCalories() {
         return this.calories;
+    }
+
+    @Override
+    public String getItemName() {
+        return "New York Style pizza";
     }
 
     public void populatePriceMap(){

@@ -10,8 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Added some documentation to Pizza and its subclasses">
-      <change afterPath="$PROJECT_DIR$/src/shop/menu/MenuItem.java" afterDir="false" />
+    <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Added MenuItem interface. All food items will implement the MenuItem interface.">
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/DeepDishPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/DeepDishPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/NYStylePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/NYStylePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/DeepDishPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/DeepDishPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -159,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593573409112</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added MenuItem interface. All food items will implement the MenuItem interface.">
+      <created>1593574250940</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593574250940</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +200,8 @@
     <MESSAGE value="XML basics" />
     <MESSAGE value="Refactored to create more readable package structure" />
     <MESSAGE value="Added some documentation to Pizza and its subclasses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some documentation to Pizza and its subclasses" />
+    <MESSAGE value="Added MenuItem interface. All food items will implement the MenuItem interface." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added MenuItem interface. All food items will implement the MenuItem interface." />
   </component>
   <component name="WindowStateProjectService">
     <state x="977" y="303" key="#Main" timestamp="1593570533043">
@@ -210,22 +228,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="441" key="FileChooserDialogImpl/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572506252" />
-    <state width="1258" height="266" key="GridCell.Tab.0.bottom" timestamp="1593572516522">
+    <state width="1258" height="266" key="GridCell.Tab.0.bottom" timestamp="1593575638095">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572516522" />
-    <state width="1258" height="266" key="GridCell.Tab.0.center" timestamp="1593572516521">
+    <state width="1258" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593575638095" />
+    <state width="1258" height="266" key="GridCell.Tab.0.center" timestamp="1593575638095">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="266" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572516521" />
-    <state width="1258" height="266" key="GridCell.Tab.0.left" timestamp="1593572516521">
+    <state width="1258" height="266" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593575638095" />
+    <state width="1258" height="266" key="GridCell.Tab.0.left" timestamp="1593575638095">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="266" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572516521" />
-    <state width="1258" height="266" key="GridCell.Tab.0.right" timestamp="1593572516522">
+    <state width="1258" height="266" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593575638095" />
+    <state width="1258" height="266" key="GridCell.Tab.0.right" timestamp="1593575638095">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="266" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572516522" />
+    <state width="1258" height="266" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593575638095" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1593563521761">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

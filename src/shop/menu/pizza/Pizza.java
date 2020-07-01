@@ -17,7 +17,9 @@ public abstract class Pizza implements MenuItem {
     List<Topping> toppings = new ArrayList<Topping>();
     Map<String, Double> priceBySize = new HashMap<String, Double>();
 
-    //Placeholder general constructor
+    /**
+     * Blank constructor to initialize class for display from {@code Menu}.
+     */
     public Pizza (){};
 
     /**
@@ -60,6 +62,8 @@ public abstract class Pizza implements MenuItem {
     public abstract String getSize();
 
     public abstract int getCalories();
+
+    public abstract String getItemName();
 
     /**
      * Returns a longer String that is represented by the single char {@param size}. Used for
