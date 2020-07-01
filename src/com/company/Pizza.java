@@ -64,7 +64,7 @@ public abstract class Pizza {
         String delim = ", ";
 
         for(Topping top : tops){
-            if(top.getName() != tops.get(-1).getName()){
+            if(top.getName() != tops.get(tops.size()-1).getName()){
                 sb.append(top.getName());
                 sb.append(delim);
             }
