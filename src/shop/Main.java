@@ -1,4 +1,9 @@
-package com.company;
+package shop;
+
+import shop.menu.pizza.DeepDishPizza;
+import shop.menu.pizza.NYStylePizza;
+import shop.menu.pizza.Pizza;
+import shop.menu.pizza.topping.*;
 
 public class Main {
 

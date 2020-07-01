@@ -10,7 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Added more toppings" />
+    <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Added more toppings">
+      <change beforePath="$PROJECT_DIR$/src/com/company/Cheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Cheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DeepDishPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/DeepDishPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/GreenPepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/GreenPepper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Mushroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Mushroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NYStylePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RedSauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/RedSauce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Sausage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Sausage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Topping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Topping.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="InitToppings" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,13 +56,21 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="shop.menu.pizza.topping" />
+      <recent name="shop" />
+      <recent name="shop.menu.pizza" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JohnM\Desktop\Projects\Java\PizzaShop\src" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="MAIN_CLASS_NAME" value="shop.Main" />
       <module name="PizzaShop" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -127,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593570224508</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="XML basics">
+      <created>1593571318481</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593571318481</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,7 +174,8 @@
     <MESSAGE value="Improved readability of printed pizza with toppings" />
     <MESSAGE value="Added basic toppings" />
     <MESSAGE value="Added more toppings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more toppings" />
+    <MESSAGE value="XML basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="XML basics" />
   </component>
   <component name="WindowStateProjectService">
     <state x="977" y="303" key="#Main" timestamp="1593570533043">
@@ -159,6 +186,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593564504292" />
+    <state x="1010" y="479" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593571505368">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="479" key="#com.intellij.ide.util.PackageChooserDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593571505368" />
+    <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593571506992">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593571506992" />
     <state x="1060" y="441" key="FileChooserDialogImpl" timestamp="1593570477596">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -199,6 +234,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="860" y="443" key="IDE.errors.dialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570698354" />
+    <state x="918" y="461" key="MultipleFileMergeDialog" timestamp="1593571335747">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="918" y="461" key="MultipleFileMergeDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593571335747" />
     <state x="781" y="345" key="SettingsEditor" timestamp="1593571014150">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -207,6 +246,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570245443" />
+    <state x="1007" y="488" key="git4idea.merge.GitPullDialog" timestamp="1593571206014">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1007" y="488" key="git4idea.merge.GitPullDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593571206014" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1593489173199">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

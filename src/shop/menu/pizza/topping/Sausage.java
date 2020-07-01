@@ -1,12 +1,13 @@
-package com.company;
+package shop.menu.pizza.topping;
 
-public class RedSauce extends Topping {
+public class Sausage extends Topping {
+
     final String name;
     final int calories;
 
-    public RedSauce(){
-        this.name = "red sauce";
-        this.calories = 110;
+    public Sausage(){
+        this.name = "sausage";
+        this.calories = 80;
     }
 
     @Override
@@ -19,7 +20,8 @@ public class RedSauce extends Topping {
         return calories;
     }
 
-    public String toString(){
+    @Override
+    public String toString() {
         return getName();
     }
 }

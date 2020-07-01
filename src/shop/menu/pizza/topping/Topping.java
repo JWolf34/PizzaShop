@@ -1,4 +1,4 @@
-package com.company;
+package shop.menu.pizza.topping;
 
 public abstract class Topping {
 

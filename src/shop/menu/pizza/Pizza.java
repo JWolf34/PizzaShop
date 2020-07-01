@@ -1,4 +1,6 @@
-package com.company;
+package shop.menu.pizza;
+
+import shop.menu.pizza.topping.Topping;
 
 import java.util.ArrayList;
 import java.util.HashMap;
