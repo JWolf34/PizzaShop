@@ -97,13 +97,13 @@ public abstract class Pizza implements MenuItem {
         String delim = ", ";
 
         for(Topping top : tops){
-            if(top.getName() != tops.get(tops.size()-1).getName()){
-                sb.append(top.getName());
+            if(top.getItemName() != tops.get(tops.size()-1).getItemName()){
+                sb.append(top.getItemName());
                 sb.append(delim);
             }
             else{
                 sb.append("and ");
-                sb.append(top.getName());
+                sb.append(top.getItemName());
             }
         }
         return sb.toString();

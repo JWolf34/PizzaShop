@@ -11,26 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Added more Pizza subclasses for testing.">
-      <change afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/Shop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/MozzarellaCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/ParmesanCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/RicottaCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/RomanoCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/AlfredoSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/BarbecueSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/Sauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/CheddarCheese.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/Shop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/topping/Cheese.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/topping/GreenPepper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/topping/Mushroom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/topping/RedSauce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/topping/Sausage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/topping/Topping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/topping/Topping.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Cheese.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/GreenPepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/GreenPepper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Mushroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/Mushroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/RedSauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/MarinaraSauce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Sausage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/Sausage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Topping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Topping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +70,11 @@
       <recent name="shop" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="shop.menu.pizza.topping.cheese" />
       <recent name="shop.menu.pizza.topping.sauce" />
       <recent name="shop.menu.pizza.topping" />
       <recent name="shop" />
       <recent name="shop.menu.pizza" />
-      <recent name="com.company" />
     </key>
   </component>
   <component name="RunManager">
@@ -180,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593581166997</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Sorted Topping further by three types (sauce, cheese, extra). Added more Toppings.">
+      <created>1593631062297</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593631062297</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,22 +241,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="441" key="FileChooserDialogImpl/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570477596" />
-    <state width="2517" height="266" key="GridCell.Tab.0.bottom" timestamp="1593581277130">
+    <state width="2517" height="266" key="GridCell.Tab.0.bottom" timestamp="1593640521721">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593581277130" />
-    <state width="2517" height="266" key="GridCell.Tab.0.center" timestamp="1593581277129">
+    <state width="2517" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593640521721" />
+    <state width="2517" height="266" key="GridCell.Tab.0.center" timestamp="1593640521721">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593581277129" />
-    <state width="2517" height="266" key="GridCell.Tab.0.left" timestamp="1593581277129">
+    <state width="2517" height="266" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593640521721" />
+    <state width="2517" height="266" key="GridCell.Tab.0.left" timestamp="1593640521721">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593581277129" />
-    <state width="2517" height="266" key="GridCell.Tab.0.right" timestamp="1593581277129">
+    <state width="2517" height="266" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593640521721" />
+    <state width="2517" height="266" key="GridCell.Tab.0.right" timestamp="1593640521721">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593581277129" />
+    <state width="2517" height="266" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593640521721" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1593579556869">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
