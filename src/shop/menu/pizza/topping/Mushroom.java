@@ -1,4 +1,4 @@
-package com.company;
+package shop.menu.pizza.topping;
 
 public class Mushroom extends Topping {
 
