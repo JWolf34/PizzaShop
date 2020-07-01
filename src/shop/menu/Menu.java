@@ -29,6 +29,7 @@ public class Menu {
         pizzaItems.forEach(pizza -> System.out.format("     %s\n", pizza.getItemName()));
 
         //Add more MenuItems extensions as we create them
+        System.out.println();
 
     }
 

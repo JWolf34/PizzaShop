@@ -9,15 +9,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        Menu menu = new Menu();
-        menu.addItem(new NYStylePizza());
-        menu.addItem(new DeepDishPizza());
-        menu.addItem(new PanPizza());
-        menu.addItem(new StuffedCrustPizza());
-        menu.show();
-
-        System.out.println("\n\n\n");
-
+        Shop shop = new Shop();
 
         /*
         Pizza NYPizza = new NYStylePizza("L", new RedSauce(), new Cheese());
