@@ -1,17 +1,21 @@
-package shop.menu.pizza.topping;
+package shop.menu.pizza.topping.extra;
+
+import shop.menu.pizza.topping.Topping;
 
 public class GreenPepper extends Topping {
 
     final String name;
     final int calories;
+    final double price;
 
     public GreenPepper(){
-        this.name = "green pepper";
+        this.name = "Green Pepper";
         this.calories = 15;
+        this.price = 0.50;
     }
 
     @Override
-    public String getName() {
+    public String getItemName() {
         return name;
     }
 
@@ -20,7 +24,10 @@ public class GreenPepper extends Topping {
         return calories;
     }
 
+    @Override
+    public double getPrice() { return price; }
+
     public String toString(){
-        return getName();
+        return getItemName();
     }
 }
