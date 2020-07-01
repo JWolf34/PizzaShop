@@ -1,19 +1,26 @@
-package com.company;
+package shop.menu.pizza;
 
-import java.util.List;
+import shop.menu.pizza.topping.Topping;
+
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
-public class NYStylePizza extends Pizza {
+public class DeepDishPizza extends Pizza {
 
     double price;
     String size;
+    int calories;
     List<Topping> toppings = new ArrayList<Topping>();
     Map<String, Double> priceBySize = new HashMap<String, Double>();
 
-    public NYStylePizza(String size, Topping... toppings){
+    /**
+     * Blank constructor to initialize class for display from {@code Menu}.
+     */
+    public DeepDishPizza(){};
+
+    public DeepDishPizza(String size, Topping... toppings){
         populatePriceMap();
         this.size = size;
         this.price = priceBySize.get(this.size);
@@ -24,6 +31,8 @@ public class NYStylePizza extends Pizza {
 
             }
         }
+
+
     }
 
     @Override
@@ -38,23 +47,33 @@ public class NYStylePizza extends Pizza {
 
     @Override
     public double getPrice() {
-       return this.price;
-    };
+        return this.price;
+    }
 
     @Override
     public String getSize() {
         return this.size;
     }
 
+    @Override
+    public int getCalories() {
+        return this.calories;
+    }
+
+    @Override
+    public String getItemName() {
+        return "Deep dish pizza";
+    }
+
+
     public void populatePriceMap(){
-        priceBySize.put("S", 8.00);
-        priceBySize.put("M", 12.00);
-        priceBySize.put("L", 16.00);
-        priceBySize.put("XL", 20.00);
+        priceBySize.put("S", 10.00);
+        priceBySize.put("M", 14.00);
+        priceBySize.put("L", 18.00);
+        priceBySize.put("XL", 22.00);
     }
 
     public String toString(){
-
-        return String.format("%s New York Style pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
+        return String.format("%s deep dish pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
     };
 }

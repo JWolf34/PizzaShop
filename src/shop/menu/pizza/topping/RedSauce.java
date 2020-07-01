@@ -1,13 +1,12 @@
-package com.company;
+package shop.menu.pizza.topping;
 
-public class Cheese extends Topping {
-
+public class RedSauce extends Topping {
     final String name;
     final int calories;
 
-    public Cheese(){
-        this.name = "cheese";
-        this.calories = 100;
+    public RedSauce(){
+        this.name = "red sauce";
+        this.calories = 110;
     }
 
     @Override

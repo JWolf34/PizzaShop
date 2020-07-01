@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Added MenuItem interface. All food items will implement the MenuItem interface.">
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/DeepDishPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/DeepDishPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/NYStylePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/NYStylePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/pizza/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/DeepDishPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/DeepDishPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Refactoring" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e1IIt5Q2hXag05UnpGGPJgm3Nm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="shop.menu.pizza.topping" />
+      <recent name="shop" />
+      <recent name="shop.menu.pizza" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JohnM\Desktop\Projects\Java\PizzaShop\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="shop.Main" />
+      <module name="PizzaShop" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="" />
+      <created>1593482596100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593482596100</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1593489579127</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593489579127</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added DeepDishPizza">
+      <created>1593563675024</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593563675024</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added DeepDishPizza">
+      <created>1593563689676</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593563689676</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initialized Topping abstract class and some derivative toppings">
+      <created>1593567835756</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593567835756</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Improved readability of printed pizza with toppings">
+      <created>1593569844934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593569844934</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added basic toppings">
+      <created>1593569871894</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593569871894</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added more toppings">
+      <created>1593570224508</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593570224508</updated>
+    </task>
+    <task id="LOCAL-00008" summary="XML basics">
+      <created>1593571318481</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593571318481</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refactored to create more readable package structure">
+      <created>1593571613961</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593571613961</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added some documentation to Pizza and its subclasses">
+      <created>1593573409112</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593573409112</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added MenuItem interface. All food items will implement the MenuItem interface.">
+      <created>1593574250940</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593574250940</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Added DeepDishPizza" />
+    <MESSAGE value="Initialized Topping abstract class and some derivative toppings" />
+    <MESSAGE value="Improved readability of printed pizza with toppings" />
+    <MESSAGE value="Added basic toppings" />
+    <MESSAGE value="Added more toppings" />
+    <MESSAGE value="XML basics" />
+    <MESSAGE value="Refactored to create more readable package structure" />
+    <MESSAGE value="Added some documentation to Pizza and its subclasses" />
+    <MESSAGE value="Added MenuItem interface. All food items will implement the MenuItem interface." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added MenuItem interface. All food items will implement the MenuItem interface." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="977" y="303" key="#Main" timestamp="1593570533043">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="977" y="303" key="#Main/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570533043" />
+    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1593564504292">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593564504292" />
+    <state x="1010" y="479" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593571505368">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="479" key="#com.intellij.ide.util.PackageChooserDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593571505368" />
+    <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593571506992">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593571506992" />
+    <state x="1027" y="419" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1593572516241">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1027" y="419" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572516241" />
+    <state x="1060" y="441" key="FileChooserDialogImpl" timestamp="1593572506252">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="441" key="FileChooserDialogImpl/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572506252" />
+    <state width="1258" height="266" key="GridCell.Tab.0.bottom" timestamp="1593575638095">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593575638095" />
+    <state width="1258" height="266" key="GridCell.Tab.0.center" timestamp="1593575638095">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="266" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593575638095" />
+    <state width="1258" height="266" key="GridCell.Tab.0.left" timestamp="1593575638095">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="266" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593575638095" />
+    <state width="1258" height="266" key="GridCell.Tab.0.right" timestamp="1593575638095">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="266" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593575638095" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1593563521761">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593563521761" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1593563521761">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593563521761" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1593563521761">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593563521761" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1593563521761">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593563521761" />
+    <state x="860" y="443" key="IDE.errors.dialog" timestamp="1593570698354">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="860" y="443" key="IDE.errors.dialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570698354" />
+    <state x="918" y="461" key="MultipleFileMergeDialog" timestamp="1593571335747">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="918" y="461" key="MultipleFileMergeDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593571335747" />
+    <state x="781" y="345" key="SettingsEditor" timestamp="1593571014150">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593571014150" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1593573425338">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593573425338" />
+    <state x="-1928" y="201" width="1703" height="1068" maximized="true" key="dock-window-1" timestamp="1593572183089">
+      <screen x="-1920" y="209" width="1920" height="1040" />
+    </state>
+    <state x="-1928" y="201" width="1703" height="1068" maximized="true" key="dock-window-1/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572183089" />
+    <state x="1007" y="488" key="git4idea.merge.GitPullDialog" timestamp="1593571206014">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1007" y="488" key="git4idea.merge.GitPullDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593571206014" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1593489173199">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593489173199" />
+  </component>
+</project>
