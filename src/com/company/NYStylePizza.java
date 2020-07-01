@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class NYStylePizza implements Pizza {
+public class NYStylePizza extends Pizza {
 
     double price;
     String size;
@@ -15,7 +15,7 @@ public class NYStylePizza implements Pizza {
     public NYStylePizza(String size){
         populatePriceMap();
         this.size = size;
-        this.price = priceBySize.get(size);
+        this.price = priceBySize.get(this.size);
     }
 
     @Override
@@ -25,26 +25,28 @@ public class NYStylePizza implements Pizza {
 
     @Override
     public void cook() {
+        //What do we do here
+    }
 
-    };
+    @Override
+    public double getPrice() {
+        return price;
+    }
 
-     @Override
-     public double getPrice(){
-         return price;
-     };
+    @Override
+    public String getSize() {
+        return size;
+    }
 
-     public String getSize(){
-         return size;
-     }
     public void populatePriceMap(){
-        priceBySize.put("Small", 8.00);
-        priceBySize.put("Medium", 12.00);
-        priceBySize.put("Large", 16.00);
-        priceBySize.put("Extra-Large", 20.00);
+        priceBySize.put("S", 8.00);
+        priceBySize.put("M", 12.00);
+        priceBySize.put("L", 16.00);
+        priceBySize.put("XL", 20.00);
     }
 
     public String toString(){
 
-        return String.join("", size, " New York Style pizza with ", String.join(", ", toppings));
+        return String.join("", this.getSizeString(this.size), " New York Style pizza with ", String.join(", ", toppings));
     };
 }
