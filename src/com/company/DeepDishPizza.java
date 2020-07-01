@@ -9,24 +9,26 @@ public class DeepDishPizza extends Pizza{
 
     double price;
     String size;
-    List<String> toppings = new ArrayList<String>();
+    List<Topping> toppings = new ArrayList<Topping>();
     Map<String, Double> priceBySize = new HashMap<String, Double>();
 
-    public DeepDishPizza(String size, String... toppings){
+    public DeepDishPizza(String size, Topping... toppings){
         populatePriceMap();
         this.size = size;
         this.price = priceBySize.get(this.size);
 
         if(toppings.length > 0){
-            for (String top : toppings) {
+            for (Topping top : toppings) {
                 this.toppings.add(top);
 
             }
         }
+
+
     }
 
     @Override
-    public void addTopping(String top) {
+    public void addTopping(Topping top) {
         toppings.add(top);
     }
 
@@ -37,12 +39,12 @@ public class DeepDishPizza extends Pizza{
 
     @Override
     public double getPrice() {
-        return price;
+        return this.price;
     }
 
     @Override
     public String getSize() {
-        return size;
+        return this.size;
     }
 
     public void populatePriceMap(){
@@ -53,7 +55,6 @@ public class DeepDishPizza extends Pizza{
     }
 
     public String toString(){
-
-        return String.join("", this.getSizeString(this.size), " deep dish pizza with ", String.join(", ", toppings));
+        return String.format("%s deep dish pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
     };
 }

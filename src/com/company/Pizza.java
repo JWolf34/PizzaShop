@@ -9,10 +9,27 @@ public abstract class Pizza {
 
     double price;
     String size;
-    List<String> toppings = new ArrayList<String>();
+    List<Topping> toppings = new ArrayList<Topping>();
+    Map<String, Double> priceBySize = new HashMap<String, Double>();
 
+    //Placeholder general constructor
+    public Pizza (){};
 
-    public abstract void addTopping(String top);
+    //Pizza Constructor Template
+    public Pizza(String size, Topping... toppings){
+        populatePriceMap();
+        this.size = size;
+        this.price = priceBySize.get(this.size);
+
+        if(toppings.length > 0){
+            for (Topping top : toppings) {
+                this.toppings.add(top);
+
+            }
+        }
+    };
+
+    public abstract void addTopping(Topping top);
 
     public void cook(){
         //What do we do here
@@ -41,6 +58,23 @@ public abstract class Pizza {
 
         return sizeString;
     };
+
+    public String getToppingsString(List<Topping> tops){
+        StringBuilder sb = new StringBuilder();
+        String delim = ", ";
+
+        for(Topping top : tops){
+            if(top.getName() != tops.get(tops.size()-1).getName()){
+                sb.append(top.getName());
+                sb.append(delim);
+            }
+            else{
+                sb.append("and ");
+                sb.append(top.getName());
+            }
+        }
+        return sb.toString();
+    }
 
     //Populate
     abstract void populatePriceMap();
