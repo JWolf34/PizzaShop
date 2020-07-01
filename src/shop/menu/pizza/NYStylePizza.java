@@ -14,6 +14,14 @@ public class NYStylePizza extends Pizza {
     List<Topping> toppings = new ArrayList<Topping>();
     Map<String, Double> priceBySize = new HashMap<String, Double>();
 
+    /**
+     * Creates a NYStylePizza of size <var>size</var> and with toppings <var>toppings</var>.
+     * Populates the
+     *
+     *
+     * @param size The size of the pizza; S, M, L, or XL
+     * @param toppings An option list of type Topping to put on the pizza
+     */
     public NYStylePizza(String size, Topping... toppings){
         populatePriceMap();
         this.size = size;
@@ -42,6 +50,12 @@ public class NYStylePizza extends Pizza {
        return this.price;
     };
 
+    /**
+     * Returns the size of the given pizza.
+     *
+     * @return The {@code Class} variable <var>size</var> which is the
+     * size of the given pizza.
+     */
     @Override
     public String getSize() {
         return this.size;

@@ -10,17 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Added more toppings">
-      <change beforePath="$PROJECT_DIR$/src/com/company/Cheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Cheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DeepDishPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/DeepDishPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/GreenPepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/GreenPepper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Mushroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Mushroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/NYStylePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/RedSauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/RedSauce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Sausage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Sausage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Topping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Topping.java" afterDir="false" />
+    <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Refactored to create more readable package structure">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
@@ -153,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593571318481</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Refactored to create more readable package structure">
+      <created>1593571613961</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593571613961</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +177,8 @@
     <MESSAGE value="Added basic toppings" />
     <MESSAGE value="Added more toppings" />
     <MESSAGE value="XML basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="XML basics" />
+    <MESSAGE value="Refactored to create more readable package structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored to create more readable package structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="977" y="303" key="#Main" timestamp="1593570533043">
@@ -194,26 +197,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593571506992" />
-    <state x="1060" y="441" key="FileChooserDialogImpl" timestamp="1593570477596">
+    <state x="1027" y="419" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1593572516241">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="441" key="FileChooserDialogImpl/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570477596" />
-    <state width="2517" height="266" key="GridCell.Tab.0.bottom" timestamp="1593570567405">
+    <state x="1027" y="419" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572516241" />
+    <state x="1060" y="441" key="FileChooserDialogImpl" timestamp="1593572506252">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570567405" />
-    <state width="2517" height="266" key="GridCell.Tab.0.center" timestamp="1593570567405">
+    <state x="1060" y="441" key="FileChooserDialogImpl/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572506252" />
+    <state width="1258" height="266" key="GridCell.Tab.0.bottom" timestamp="1593572516522">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570567405" />
-    <state width="2517" height="266" key="GridCell.Tab.0.left" timestamp="1593570567405">
+    <state width="1258" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572516522" />
+    <state width="1258" height="266" key="GridCell.Tab.0.center" timestamp="1593572516521">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570567405" />
-    <state width="2517" height="266" key="GridCell.Tab.0.right" timestamp="1593570567405">
+    <state width="1258" height="266" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572516521" />
+    <state width="1258" height="266" key="GridCell.Tab.0.left" timestamp="1593572516521">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570567405" />
+    <state width="1258" height="266" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572516521" />
+    <state width="1258" height="266" key="GridCell.Tab.0.right" timestamp="1593572516522">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="266" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572516522" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1593563521761">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -246,6 +253,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570245443" />
+    <state x="-1928" y="201" width="1703" height="1068" maximized="true" key="dock-window-1" timestamp="1593572183089">
+      <screen x="-1920" y="209" width="1920" height="1040" />
+    </state>
+    <state x="-1928" y="201" width="1703" height="1068" maximized="true" key="dock-window-1/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593572183089" />
     <state x="1007" y="488" key="git4idea.merge.GitPullDialog" timestamp="1593571206014">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

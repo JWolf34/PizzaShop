@@ -17,7 +17,15 @@ public abstract class Pizza {
     //Placeholder general constructor
     public Pizza (){};
 
-    //Pizza Constructor Template
+    /**
+     * Pizza Constructor Template.
+     *
+     * Serves as a constructor template for all class extensions. A master constructor
+     * to base all further extensions' constructors off of.
+     *
+     * @param size The size of the pizza; S, M, L, or XL
+     * @param toppings An option list of type Topping to put on the pizza
+     */
     public Pizza(String size, Topping... toppings){
         populatePriceMap();
         this.size = size;
@@ -31,6 +39,13 @@ public abstract class Pizza {
         }
     };
 
+    /**
+     * Abstract method for all extensions.
+     *
+     * Adds a {@code Topping} <var>top</var> to the class List variable <var>toppings</var>.
+     *
+     * @param top The {@code Topping} to be added to the <var>toppings</var> list
+     */
     public abstract void addTopping(Topping top);
 
     public void cook(){
@@ -41,6 +56,13 @@ public abstract class Pizza {
 
     public abstract String getSize();
 
+    /**
+     * Returns a longer String that is represented by the single char {@param size}. Used for
+     * readability and printing purposes.
+     *
+     * @param size The single char string representation of the size of a given pizza
+     * @return A String corresponding to the shorthand {@param size}
+     */
     public String getSizeString(String size){
         String sizeString = "Invalid pizza size";
         switch(size) {
