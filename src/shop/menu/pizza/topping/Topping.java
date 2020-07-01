@@ -1,10 +1,14 @@
 package shop.menu.pizza.topping;
 
-public abstract class Topping {
+import shop.menu.MenuItem;
+
+public abstract class Topping implements MenuItem {
+
+    public abstract double getPrice();
 
     public abstract int getCalories();
 
-    public abstract String getName();
+    public abstract String getItemName();
 
     @Override
     public abstract String toString();

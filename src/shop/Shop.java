@@ -2,9 +2,11 @@ package shop;
 
 import shop.menu.*;
 import shop.menu.pizza.*;
-import shop.menu.pizza.topping.*;
-
-import javax.swing.plaf.basic.BasicMenuUI;
+import shop.menu.pizza.topping.cheese.*;
+import shop.menu.pizza.topping.extra.GreenPepper;
+import shop.menu.pizza.topping.extra.Mushroom;
+import shop.menu.pizza.topping.extra.Sausage;
+import shop.menu.pizza.topping.sauce.MarinaraSauce;
 
 public class Shop {
 
@@ -32,13 +34,13 @@ public class Shop {
 
         Order order = new Order();
 
-        Pizza NYPizzaMeat = new NYStylePizza("XL", new RedSauce(), new Cheese(), new Sausage(), new GreenPepper());
+        Pizza NYPizzaMeat = new NYStylePizza("XL", new MarinaraSauce(), new MozzarellaCheese(), new Sausage(), new GreenPepper());
         order.addItem(NYPizzaMeat);
 
-        Pizza pan = new PanPizza("L", new RedSauce(), new Cheese());
+        Pizza pan = new PanPizza("L", new MarinaraSauce(), new ParmesanCheese(), new RomanoCheese());
         order.addItem(pan);
 
-        Pizza NYPizzaVeggie = new NYStylePizza("M", new RedSauce(), new Cheese(), new Mushroom(), new GreenPepper());
+        Pizza NYPizzaVeggie = new NYStylePizza("M", new MarinaraSauce(), new RicottaCheese(), new Mushroom(), new GreenPepper());
         order.addItem((NYPizzaVeggie));
 
         order.show();

@@ -11,11 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Added more Pizza subclasses for testing.">
-      <change afterPath="$PROJECT_DIR$/src/shop/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop/menu/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/Shop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/MozzarellaCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/ParmesanCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/RicottaCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/RomanoCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/AlfredoSauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/BarbecueSauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/Sauce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Cheese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/GreenPepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/GreenPepper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Mushroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/Mushroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/RedSauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/MarinaraSauce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Sausage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/Sausage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Topping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/Topping.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Pizza" />
+        <entry key="$PROJECT_DIR$" value="Order" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,9 +71,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="shop.menu.pizza.topping.sauce" />
+      <recent name="shop.menu.pizza.topping.cheese" />
+      <recent name="shop.menu.pizza.topping.extra" />
       <recent name="shop" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="shop.menu.pizza.topping.sauce" />
+      <recent name="shop.menu.pizza.topping" />
       <recent name="shop" />
       <recent name="shop.menu.pizza" />
       <recent name="com.company" />
@@ -153,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593578453427</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Order class for tracking orders and items in them.&#10;Added Shop class as main driver of the application.">
+      <created>1593581166997</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593581166997</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,7 +204,9 @@
     <MESSAGE value="Added more toppings" />
     <MESSAGE value="UIDesigner" />
     <MESSAGE value="Added more Pizza subclasses for testing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more Pizza subclasses for testing." />
+    <MESSAGE value="Added Order class for tracking orders and items in them.&#10;Added Shop class as main driver of the application." />
+    <MESSAGE value="Sorted Topping further by three types (sauce, cheese, extra). Added more Toppings." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorted Topping further by three types (sauce, cheese, extra). Added more Toppings." />
   </component>
   <component name="WindowStateProjectService">
     <state x="977" y="303" key="#Main" timestamp="1593570533043">
@@ -192,14 +221,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593564504292" />
+    <state x="1010" y="479" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593630876046">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="479" key="#com.intellij.ide.util.PackageChooserDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593630876046" />
     <state x="1009" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593577771244">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1009" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593577771244" />
-    <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593577557995">
+    <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593630877348">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593577557995" />
+    <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593630877348" />
     <state x="996" y="518" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1593577527972">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -208,22 +241,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="441" key="FileChooserDialogImpl/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570477596" />
-    <state width="2517" height="266" key="GridCell.Tab.0.bottom" timestamp="1593580824647">
+    <state width="2517" height="266" key="GridCell.Tab.0.bottom" timestamp="1593581277130">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593580824647" />
-    <state width="2517" height="266" key="GridCell.Tab.0.center" timestamp="1593580824647">
+    <state width="2517" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593581277130" />
+    <state width="2517" height="266" key="GridCell.Tab.0.center" timestamp="1593581277129">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593580824647" />
-    <state width="2517" height="266" key="GridCell.Tab.0.left" timestamp="1593580824647">
+    <state width="2517" height="266" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593581277129" />
+    <state width="2517" height="266" key="GridCell.Tab.0.left" timestamp="1593581277129">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593580824647" />
-    <state width="2517" height="266" key="GridCell.Tab.0.right" timestamp="1593580824647">
+    <state width="2517" height="266" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593581277129" />
+    <state width="2517" height="266" key="GridCell.Tab.0.right" timestamp="1593581277129">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593580824647" />
+    <state width="2517" height="266" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593581277129" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1593579556869">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -256,10 +289,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593577707777" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1593578476154">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1593581175955">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593578476154" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593581175955" />
     <state x="1007" y="488" key="git4idea.merge.GitPullDialog" timestamp="1593576362599">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
