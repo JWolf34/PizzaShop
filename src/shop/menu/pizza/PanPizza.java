@@ -65,6 +65,10 @@ public class PanPizza extends Pizza {
         return "Pan pizza";
     }
 
+    @Override
+    public Pizza getNewPizza(String size) {
+        return new PanPizza(size);
+    }
 
     public void populatePriceMap(){
         priceBySize.put("S", 8.00);

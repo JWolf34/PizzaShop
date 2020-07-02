@@ -69,7 +69,7 @@ public class Menu {
 
     }
 
-    Map<String, List<MenuItem>> getMenuItemList(){
+    public Map<String, List<MenuItem>> getMenuItemList(){
         return menuItemList;
     };
 

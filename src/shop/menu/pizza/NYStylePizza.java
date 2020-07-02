@@ -77,6 +77,11 @@ public class NYStylePizza extends Pizza {
         return "New York Style pizza";
     }
 
+    @Override
+    public Pizza getNewPizza(String size) {
+        return new NYStylePizza(size);
+    }
+
     public void populatePriceMap(){
         priceBySize.put("S", 8.00);
         priceBySize.put("M", 12.00);

@@ -12,11 +12,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Added more Pizza subclasses for testing.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/Shop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaShop/shop/menu/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shop/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shop/menu/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/DeepDishPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/DeepDishPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/PanPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/PanPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/StuffedCrustPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/StuffedCrustPizza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593641619142</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added basic functionality of interactive text-based menus.">
+      <created>1593654692344</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593654692344</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +219,8 @@
     <MESSAGE value="Added Order class for tracking orders and items in them.&#10;Added Shop class as main driver of the application." />
     <MESSAGE value="Sorted Topping further by three types (sauce, cheese, extra). Added more Toppings." />
     <MESSAGE value="Toppings now display by category on the menu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Toppings now display by category on the menu." />
+    <MESSAGE value="Added basic functionality of interactive text-based menus." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic functionality of interactive text-based menus." />
   </component>
   <component name="WindowStateProjectService">
     <state x="977" y="303" key="#Main" timestamp="1593570533043">
@@ -242,22 +255,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="441" key="FileChooserDialogImpl/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593570477596" />
-    <state width="2517" height="252" key="GridCell.Tab.0.bottom" timestamp="1593644167753">
+    <state width="2517" height="650" key="GridCell.Tab.0.bottom" timestamp="1593657378720">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="252" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593644167753" />
-    <state width="2517" height="252" key="GridCell.Tab.0.center" timestamp="1593644167753">
+    <state width="2517" height="650" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593657378720" />
+    <state width="2517" height="650" key="GridCell.Tab.0.center" timestamp="1593657378720">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="252" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593644167753" />
-    <state width="2517" height="252" key="GridCell.Tab.0.left" timestamp="1593644167753">
+    <state width="2517" height="650" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593657378720" />
+    <state width="2517" height="650" key="GridCell.Tab.0.left" timestamp="1593657378720">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="252" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593644167753" />
-    <state width="2517" height="252" key="GridCell.Tab.0.right" timestamp="1593644167753">
+    <state width="2517" height="650" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593657378720" />
+    <state width="2517" height="650" key="GridCell.Tab.0.right" timestamp="1593657378720">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="252" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593644167753" />
+    <state width="2517" height="650" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593657378720" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1593579556869">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

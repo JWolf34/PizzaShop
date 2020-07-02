@@ -65,6 +65,8 @@ public abstract class Pizza implements MenuItem {
 
     public abstract String getItemName();
 
+    public abstract Pizza getNewPizza(String size);
+
     /**
      * Returns a longer String that is represented by the single char {@param size}. Used for
      * readability and printing purposes.

@@ -65,6 +65,10 @@ public class DeepDishPizza extends Pizza {
         return "Deep dish pizza";
     }
 
+    @Override
+    public Pizza getNewPizza(String size) {
+        return new DeepDishPizza(size);
+    }
 
     public void populatePriceMap(){
         priceBySize.put("S", 10.00);

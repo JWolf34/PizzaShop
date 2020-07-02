@@ -24,7 +24,6 @@ public class Order {
     }
 
     public void dialogueAddItem(){
-        menu.show();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which item would you like to add to your order?\n");
         System.out.println("1. Pizza");
@@ -59,8 +58,66 @@ public class Order {
     public void addPizza(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which type of pizza would you like?\n");
+        Pizza newPizza;
+        boolean validPizzaType = false;
 
-        List<MenuItem> pizzas = menu.getMenuItemList().get("Pizza");
+        //Choose pizza type
+        while(!validPizzaType){
+            List<MenuItem> pizzas = menu.getMenuItemList().get("Pizza");
+            for(int i = 0; i < pizzas.size(); i++) {
+                System.out.format("%d. %s\n", i+1, pizzas.get(i).getItemName());
+            }
+            System.out.print("\nEnter a number: ");
+            int input = scanner.nextInt();
+            System.out.println();
+            try{
+                newPizza = (Pizza)pizzas.get(input-1);
+                validPizzaType = true;
+            }
+            catch(IndexOutOfBoundsException e) {
+                System.out.println("Invalid input. Please enter a number.");
+
+            }
+        }
+
+        //Choose pizza size
+        System.out.format("What size of %s would you like?\n\n", newPizza.getItemName());
+        boolean validPizzaSize = false;
+        while(!validPizzaSize){
+            System.out.println("1. Small");
+            System.out.println("2. Medium");
+            System.out.println("3. Large");
+            System.out.println("4. Extra-Large");
+
+            System.out.print("\nEnter a number: ");
+            String input = scanner.nextLine();
+            System.out.println();
+
+            switch(input){
+                case("1"):
+                    newPizza = newPizza.getNewPizza("S");
+                    validPizzaSize = true;
+                    break;
+                case("2"):
+                    newPizza = newPizza.getNewPizza("M");
+                    validPizzaSize = true;
+                    break;
+                case("3"):
+                    newPizza = newPizza.getNewPizza("L");
+                    validPizzaSize = true;
+                    break;
+                case("4"):
+                    newPizza = newPizza.getNewPizza("XL");
+                    validPizzaSize = true;
+                    break;
+                default:
+                    System.out.println("\nInvalid input. Please enter a number");
+            }
+        }
+
+
+
+
 
     }
 
