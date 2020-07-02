@@ -2,67 +2,30 @@ package shop.menu.pizza;
 
 import shop.menu.pizza.topping.Topping;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 public class PanPizza extends Pizza {
 
-    double price;
-    String size;
-    int calories;
-    List<Topping> toppings = new ArrayList<Topping>();
-    Map<String, Double> priceBySize = new HashMap<String, Double>();
+    /**
+     * Blank constructor to initialize instance for display in {@code Menu}
+     */
+    public PanPizza(){
+        super();
+    };
 
     /**
-     * Blank constructor to initialize class for display from {@code Menu}.
+     * Creates a NYStylePizza of size <var>size</var> and with toppings <var>toppings</var>.
+     * Assigns a <var>price</var> to the pizza depending on its {@param size}.
+     *
+     * @param size The size of the pizza; S, M, L, or XL
+     * @param toppings An option list of type Topping to put on the pizza
      */
-    public PanPizza(){};
-
     public PanPizza(String size, Topping... toppings){
-        populatePriceMap();
-        this.size = size;
-        this.price = priceBySize.get(this.size);
-
-        if(toppings.length > 0){
-            for (Topping top : toppings) {
-                this.toppings.add(top);
-
-            }
-        }
-
-
-    }
-
-    @Override
-    public void addTopping(Topping top) {
-        toppings.add(top);
-    }
-
-    @Override
-    public void cook() {
-        //What do we do here
-    }
-
-    @Override
-    public double getPrice() {
-        return this.price;
-    }
-
-    @Override
-    public String getSize() {
-        return this.size;
-    }
-
-    @Override
-    public int getCalories() {
-        return this.calories;
+        super(size, toppings);
+        super.setPrice(priceBySize(size));
     }
 
     @Override
     public String getItemName() {
-        return "Pan pizza";
+        return "Pan Pizza";
     }
 
     @Override
@@ -70,17 +33,24 @@ public class PanPizza extends Pizza {
         return new PanPizza(size);
     }
 
-    public void populatePriceMap(){
-        priceBySize.put("S", 8.00);
-        priceBySize.put("M", 12.00);
-        priceBySize.put("L", 16.00);
-        priceBySize.put("XL", 20.00);
-    }
+    @Override
+    public double priceBySize(String size){
+        double price = -1;
 
-    public String toString(){
-        if(size == null){ return getItemName();}
-        else {
-            return String.format("%s pan pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
+        switch(size){
+            case("S"):
+                price = 10.00;
+                break;
+            case("M"):
+                price = 14.00;
+                break;
+            case("L"):
+                price = 18.00;
+                break;
+            case("XL"):
+                price = 22.00;
+                break;
         }
-    };
+        return price;
+    }
 }

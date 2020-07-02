@@ -15,7 +15,6 @@ public abstract class Pizza implements MenuItem {
     String size;
     int calories;
     List<Topping> toppings = new ArrayList<Topping>();
-    Map<String, Double> priceBySize = new HashMap<String, Double>();
 
     /**
      * Blank constructor to initialize class for display from {@code Menu}.
@@ -32,9 +31,9 @@ public abstract class Pizza implements MenuItem {
      * @param toppings An option list of type Topping to put on the pizza
      */
     public Pizza(String size, Topping... toppings){
-        populatePriceMap();
+
         this.size = size;
-        this.price = priceBySize.get(this.size);
+        this.price = -1;
 
         if(toppings.length > 0){
             for (Topping top : toppings) {
@@ -51,17 +50,33 @@ public abstract class Pizza implements MenuItem {
      *
      * @param top The {@code Topping} to be added to the <var>toppings</var> list
      */
-    public abstract void addTopping(Topping top);
+    public void addTopping(Topping top){
+        toppings.add(top);
+    };
 
     public void cook(){
         //What do we do here
     };
 
-    public abstract double getPrice();
+    protected void setPrice(double p){
+        if(price < 0){
+            price = p;
+        }
+    }
 
-    public abstract String getSize();
+    public double getPrice(){
+        return price;
+    };
 
-    public abstract int getCalories();
+    public String getSize(){
+        return size;
+    };
+
+    public int getCalories(){
+        return calories;
+    };
+
+    public abstract double priceBySize(String size);
 
     public abstract String getItemName();
 
@@ -111,10 +126,14 @@ public abstract class Pizza implements MenuItem {
         return sb.toString();
     }
 
-    //Populate
-    abstract void populatePriceMap();
+
 
     @Override
-    public abstract String toString();
+    public  String toString(){
+        if(size == null){ return getItemName();}
+        else{
+            return String.format("%s %s with %s", this.getSizeString(this.size), this.getItemName(), this.getToppingsString(this.toppings));
+        }
+    };
 
 }
