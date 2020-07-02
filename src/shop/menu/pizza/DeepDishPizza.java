@@ -78,6 +78,9 @@ public class DeepDishPizza extends Pizza {
     }
 
     public String toString(){
-        return String.format("%s deep dish pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
+        if(size == null){ return getItemName();}
+        else {
+            return String.format("%s deep dish pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
+        }
     };
 }

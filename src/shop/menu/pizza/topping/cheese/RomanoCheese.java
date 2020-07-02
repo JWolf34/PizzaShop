@@ -7,7 +7,7 @@ public class RomanoCheese extends Cheese {
     final double price;
 
     public RomanoCheese(){
-        this.name = "Parmesan Cheese";
+        this.name = "Romano Cheese";
         this.calories = 130;
         this.price = 0.0;
     }

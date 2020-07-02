@@ -78,6 +78,9 @@ public class PanPizza extends Pizza {
     }
 
     public String toString(){
-        return String.format("%s pan pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
+        if(size == null){ return getItemName();}
+        else {
+            return String.format("%s pan pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
+        }
     };
 }

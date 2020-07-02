@@ -90,7 +90,10 @@ public class NYStylePizza extends Pizza {
     }
 
     public String toString(){
+        if(size == null){ return getItemName();}
+        else{
+            return String.format("%s New York Style pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
+        }
 
-        return String.format("%s New York Style pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
     };
 }

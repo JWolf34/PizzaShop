@@ -1,6 +1,9 @@
 package shop.menu;
 
 import shop.menu.pizza.Pizza;
+import shop.menu.pizza.topping.Topping;
+import shop.menu.pizza.topping.cheese.Cheese;
+import shop.menu.pizza.topping.sauce.Sauce;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -59,10 +62,9 @@ public class Order {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which type of pizza would you like?\n");
         Pizza newPizza;
-        boolean validPizzaType = false;
 
         //Choose pizza type
-        while(!validPizzaType){
+        while(true){
             List<MenuItem> pizzas = menu.getMenuItemList().get("Pizza");
             for(int i = 0; i < pizzas.size(); i++) {
                 System.out.format("%d. %s\n", i+1, pizzas.get(i).getItemName());
@@ -72,7 +74,7 @@ public class Order {
             System.out.println();
             try{
                 newPizza = (Pizza)pizzas.get(input-1);
-                validPizzaType = true;
+                break;
             }
             catch(IndexOutOfBoundsException e) {
                 System.out.println("Invalid input. Please enter a number.");
@@ -82,6 +84,7 @@ public class Order {
 
         //Choose pizza size
         System.out.format("What size of %s would you like?\n\n", newPizza.getItemName());
+
         boolean validPizzaSize = false;
         while(!validPizzaSize){
             System.out.println("1. Small");
@@ -115,10 +118,73 @@ public class Order {
             }
         }
 
+        //Choose sauce
+        System.out.format("What sauce would you like on your %s?\n\n", newPizza.getItemName());
 
+        while(true){
+            List<MenuItem> sauces = menu.getMenuItemList().get("Sauces");
+            for(int i = 0; i < sauces.size(); i++) {
+                System.out.format("%d. %s\n", i+1, sauces.get(i).getItemName());
+            }
+            System.out.print("\nEnter a number: ");
+            int input = scanner.nextInt();
+            System.out.println();
+            try{
+                Sauce sauce = (Sauce)sauces.get(input-1);
+                newPizza.addTopping(sauce);
+                break;
+            }
+            catch(IndexOutOfBoundsException e) {
+                System.out.println("Invalid input. Please enter a number.");
+            }
+        }
 
+        //Choose cheese
+        System.out.format("What cheese would you like on your %s?\n\n", newPizza.getItemName());
 
+        while(true){
+            List<MenuItem> cheeses = menu.getMenuItemList().get("Cheeses");
+            for(int i = 0; i < cheeses.size(); i++) {
+                System.out.format("%d. %s\n", i+1, cheeses.get(i).getItemName());
+            }
+            System.out.print("\nEnter a number: ");
+            int input = scanner.nextInt();
+            System.out.println();
+            try{
+                Cheese cheese = (Cheese)cheeses.get(input-1);
+                newPizza.addTopping(cheese);
+                break;
+            }
+            catch(IndexOutOfBoundsException e) {
+                System.out.println("Invalid input. Please enter a number.");
+            }
+        }
 
+        //Choose toppings
+        System.out.format("What toppings would you like on your %s?\n\n", newPizza.getItemName());
+
+        boolean validSauce = false;
+        while(true){
+            List<MenuItem> toppings = menu.getMenuItemList().get("Extras");
+            for(int i = 0; i < toppings.size(); i++) {
+                System.out.format("%d. %s\n", i+1, toppings.get(i).getItemName());
+            }
+            System.out.format("%d. Done", toppings.size() + 1);
+            System.out.print("\nEnter a number: ");
+            int input = scanner.nextInt();
+            System.out.println();
+            try{
+                if(input == 8){break;}
+
+                Topping top = (Topping)toppings.get(input-1);
+                newPizza.addTopping(top);
+            }
+            catch(IndexOutOfBoundsException e) {
+                System.out.println("Invalid input. Please enter a number.");
+            }
+        }
+
+        addItem(newPizza);
     }
 
     public void show(){

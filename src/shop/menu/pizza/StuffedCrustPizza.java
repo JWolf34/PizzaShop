@@ -78,6 +78,9 @@ public class StuffedCrustPizza extends Pizza {
     }
 
     public String toString(){
-        return String.format("%s stuffed crust pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
+        if(size == null){ return getItemName();}
+        else {
+            return String.format("%s stuffed crust pizza with %s", this.getSizeString(this.size), this.getToppingsString(this.toppings));
+        }
     };
 }
