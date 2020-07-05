@@ -12,11 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Rudimentary text-based order system complete.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/DeepDishPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/DeepDishPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/NYStylePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/PanPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/PanPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/StuffedCrustPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/StuffedCrustPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593986079017</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fixed a number of warnings in Pizza and its subclasses.">
+      <created>1593986692153</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1593986692153</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +267,8 @@
     <MESSAGE value="Fully documented current version of abstract class Pizza" />
     <MESSAGE value="Fully documented subclasses of Pizza." />
     <MESSAGE value="Fully documented singleton class Menu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fully documented singleton class Menu." />
+    <MESSAGE value="Fixed a number of warnings in Pizza and its subclasses." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a number of warnings in Pizza and its subclasses." />
   </component>
   <component name="WindowStateProjectService">
     <state x="977" y="303" key="#Main" timestamp="1593570533043">
@@ -370,16 +375,5 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593489173199" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/shop/menu/Order.java</url>
-          <line>198</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

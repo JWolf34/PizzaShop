@@ -2,10 +2,25 @@ package shop.menu;
 
 public interface MenuItem {
 
-    public abstract double getPrice();
+    /**
+     * Method to be overridden. Returns the price of a {@link MenuItem};
+     *
+     * @return the price of the given {@link MenuItem}
+     */
+    double getPrice();
 
-    public abstract int getCalories();
+    /**
+     * Method to be overridden. Returns the calories of a {@link MenuItem};
+     *
+     * @return the calories of the given {@link MenuItem}
+     */
+    int getCalories();
 
-    public abstract String getItemName();
+    /**
+     * Method to be overridden. Returns the readable class name of a {@link MenuItem};
+     *
+     * @return the readable class name of the given {@link MenuItem}
+     */
+    String getItemName();
 
 }
