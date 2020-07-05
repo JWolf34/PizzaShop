@@ -51,6 +51,36 @@ public class Order {
         System.out.format("%s has been removed from your order.\n", removedItem.toString());
     }
 
+    public void dialogueRemoveItem(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Which item would you like to remove from your order?\n");
+        int index = -1;
+
+        while(true){
+            List<MenuItem> items = getOrderItems();
+            for(int i = 0; i < items.size(); i++){
+                System.out.format("%d. $%.2f: %s\n", i+1, items.get(i).getPrice(), items.get(i).toString());
+            }
+
+            System.out.print("\nEnter a number: ");
+            int input = scanner.nextInt();
+            System.out.println();
+
+            if(input >= 0 && input < items.size()){
+                index = input;
+                break;
+            }
+            else{
+                System.out.println("Invalid input. Please enter a number.");
+            }
+        }
+        removeItem(index);
+    }
+
+    private List<MenuItem> getOrderItems(){
+        return orderItems;
+    }
+
     public double getOrderTotal(){
         double sum = orderItems.stream()
                 .mapToDouble(item -> item.getPrice())
@@ -93,23 +123,23 @@ public class Order {
             System.out.println("4. Extra-Large");
 
             System.out.print("\nEnter a number: ");
-            String input = scanner.nextLine();
+            int input = scanner.nextInt();
             System.out.println();
 
             switch(input){
-                case("1"):
+                case(1):
                     newPizza = newPizza.getNewPizza("S");
                     validPizzaSize = true;
                     break;
-                case("2"):
+                case(2):
                     newPizza = newPizza.getNewPizza("M");
                     validPizzaSize = true;
                     break;
-                case("3"):
+                case(3):
                     newPizza = newPizza.getNewPizza("L");
                     validPizzaSize = true;
                     break;
-                case("4"):
+                case(4):
                     newPizza = newPizza.getNewPizza("XL");
                     validPizzaSize = true;
                     break;
@@ -165,7 +195,7 @@ public class Order {
 
         boolean validSauce = false;
         while(true){
-            List<MenuItem> toppings = menu.getMenuItemList().get("Extras");
+            List<MenuItem> toppings = menu.getMenuItemList().get("Toppings");
             for(int i = 0; i < toppings.size(); i++) {
                 System.out.format("%d. %s\n", i+1, toppings.get(i).getItemName());
             }
@@ -174,7 +204,7 @@ public class Order {
             int input = scanner.nextInt();
             System.out.println();
             try{
-                if(input == 8){break;}
+                if(input == toppings.size() + 1){break;}
 
                 Topping top = (Topping)toppings.get(input-1);
                 newPizza.addTopping(top);

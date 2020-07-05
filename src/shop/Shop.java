@@ -46,13 +46,15 @@ public class Shop {
                     order.show();
                     break;
                 case("4"): //Add to order
-                    //Do stuff
+                    order.dialogueAddItem();
                     break;
                 case("5"): //Remove from order
-                    //Do stuff
+                    order.dialogueRemoveItem();
                     break;
                 case("6"): //Checkout
-                    //Do stuff
+                    order.show();
+                    System.out.println("\nThank you!");
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("Invalid entry. Please try again.\n");
