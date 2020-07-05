@@ -111,7 +111,8 @@ public abstract class Pizza implements MenuItem {
 
     /**
      * Abstract method to be overridden by subclasses. Should return the price of a {@code Pizza} subclass given
-     * its {@param size}.
+     * its {@param size}. Each {@code Pizza} subclass will have different base prices, so this method
+     * will denote the base prices of the size of each subclass' pizzas.
      *
      * @param size The single char String representation of the size of a {@code Pizza}; S, M, L, or XL.
      * @return A double representing the price of the {@code Pizza}.
