@@ -12,10 +12,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Rudimentary text-based order system complete.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/AlfredoSauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/AlfredoSauce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/BarbecueSauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/BarbecueSauce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/MarinaraSauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/MarinaraSauce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/Sauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/sauce/Sauce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/CheddarCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/CheddarCheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/Cheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/Cheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/MozzarellaCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/MozzarellaCheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/ParmesanCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/ParmesanCheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/RicottaCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/RicottaCheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/RomanoCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/RomanoCheese.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593990826164</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Abstracted Sauce.java and its subclasses.">
+      <created>1593992151334</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1593992151334</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +295,8 @@
     <MESSAGE value="Fixed a number of warnings in Pizza and its subclasses." />
     <MESSAGE value="Fully documented MenuItem.java and Order.java" />
     <MESSAGE value="Fully documented Topping.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fully documented Topping.java" />
+    <MESSAGE value="Abstracted Sauce.java and its subclasses." />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstracted Sauce.java and its subclasses." />
   </component>
   <component name="WindowStateProjectService">
     <state x="977" y="303" key="#Main" timestamp="1593570533043">
