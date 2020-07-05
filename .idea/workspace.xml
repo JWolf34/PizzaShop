@@ -11,13 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c8e7081-d23e-4882-946e-a81c6e429316" name="Default Changelist" comment="Rudimentary text-based order system complete.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/CheddarCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/CheddarCheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/Cheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/Cheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/MozzarellaCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/MozzarellaCheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/ParmesanCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/ParmesanCheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/RicottaCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/RicottaCheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/RomanoCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/cheese/RomanoCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/Extra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/GreenPepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/GreenPepper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/Mushroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/Mushroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/Sausage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop/menu/pizza/topping/extra/Sausage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +61,11 @@
       <recent name="shop" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="shop.menu.pizza.topping.extra" />
       <recent name="shop.menu.pizza" />
       <recent name="shop.menu.pizza.topping.cheese" />
       <recent name="shop.menu.pizza.topping.sauce" />
       <recent name="shop.menu.pizza.topping" />
-      <recent name="shop" />
     </key>
   </component>
   <component name="RunManager">
@@ -258,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593992151334</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Abstracted Cheese.java and its subclasses.">
+      <created>1593992556077</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1593992556077</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +300,8 @@
     <MESSAGE value="Fully documented MenuItem.java and Order.java" />
     <MESSAGE value="Fully documented Topping.java" />
     <MESSAGE value="Abstracted Sauce.java and its subclasses." />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstracted Sauce.java and its subclasses." />
+    <MESSAGE value="Abstracted Cheese.java and its subclasses." />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstracted Cheese.java and its subclasses." />
   </component>
   <component name="WindowStateProjectService">
     <state x="977" y="303" key="#Main" timestamp="1593570533043">
@@ -311,10 +316,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593669226107" />
-    <state x="1010" y="479" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593630876046">
+    <state x="1010" y="479" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593992873812">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1010" y="479" key="#com.intellij.ide.util.PackageChooserDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593630876046" />
+    <state x="1010" y="479" key="#com.intellij.ide.util.PackageChooserDialog/0.0.2560.1400/-1920.209.1920.1040@0.0.2560.1400" timestamp="1593992873812" />
     <state x="1009" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593577771244">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
