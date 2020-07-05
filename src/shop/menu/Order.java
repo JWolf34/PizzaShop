@@ -5,27 +5,49 @@ import shop.menu.pizza.topping.Topping;
 import shop.menu.pizza.topping.cheese.Cheese;
 import shop.menu.pizza.topping.sauce.Sauce;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Creates, edits, and displays the order of a customer at PizzaShop.
+ */
 public class Order {
 
     Menu menu;
     List<MenuItem> orderItems;
 
+    /**
+     * Creates a new instance of {@code Order}.
+     *
+     * Initialize <var>menu</var> to singleton instance of {@link Menu}.
+     * Initialize <var>orderItems</var> as empty {@code ArrayList<>} for {@link MenuItem} objects
+     * to be inserted into.
+     */
     public Order(){
 
         menu = Menu.getInstance();
         orderItems =  new ArrayList<>();
     }
 
+    /**
+     * Adds {@link MenuItem} {@param item} to the order.
+     *
+     * Adds {@param item} to <var>orderItems</var> and prints a confirmation to the console.
+     *
+     * @param item the {@link MenuItem} to be added to the order.
+     */
     public void addItem(MenuItem item){
         orderItems.add(item);
         System.out.format("%s has been added to your order.\n", item.toString());
     }
 
+    /**
+     * Initializes a text-based menu to receive and interpret user input to add an item to the order.
+     *
+     * Lists the options of types of foods available on the menu. User input of a number decides a
+     * method call to add a certain item of the corresponding type to the order.
+     */
     public void dialogueAddItem(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which item would you like to add to your order?\n");
@@ -45,16 +67,28 @@ public class Order {
 
     }
 
+    /**
+     * Removes a {@link MenuItem}from the order (<var>orderItems</var>) at the given index. Prints a
+     * confirmation to the console.
+     *
+     * @param index The index of the {@link MenuItem} to be removed from <var>orderItems</var>
+     */
     public void removeItem(int index){
         MenuItem removedItem = orderItems.get(index);
         orderItems.remove(index);
         System.out.format("%s has been removed from your order.\n", removedItem.toString());
     }
 
+    /**
+     * Initializes a text-based menu to receive and interpret user input to remove an item to the order.
+     *
+     * Displays order items in the order in which they were added. The user inputs the number option
+     * of the item to be removed and the item is removed from the order via {@link #removeItem(int)}.
+     */
     public void dialogueRemoveItem(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which item would you like to remove from your order?\n");
-        int index = -1;
+        int index;
 
         while(true){
             List<MenuItem> items = getOrderItems();
@@ -77,17 +111,32 @@ public class Order {
         removeItem(index);
     }
 
+    /**
+     * Return class variable <var>orderItems</var>.
+     * @return <var>orderItems</var>
+     */
     private List<MenuItem> getOrderItems(){
         return orderItems;
     }
 
+    /**
+     * Returns the sum of the prices of all {@link MenuItem} objects in <var>orderItems</var>.
+     *
+     * @return the sum of the prices of all {@link MenuItem} objects in <var>orderItems</var>.
+     */
     public double getOrderTotal(){
-        double sum = orderItems.stream()
-                .mapToDouble(item -> item.getPrice())
+        return  orderItems.stream()
+                .mapToDouble(MenuItem::getPrice)
                 .sum();
-        return sum;
-    };
+    }
 
+    /**
+     * Initializes a text-based menu to receive and interpret user input to add a {@link Pizza} to the order.
+     *
+     * Loops through asking user input for {@link Pizza} type, size, sauce topping, cheese topping,
+     * and additional toppings. Once all preferences for the {@link Pizza} have been recorded, the
+     * {@link Pizza} object is added to the order <var>orderItems</var> via {@link #addItem(MenuItem)}.
+     */
     public void addPizza(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which type of pizza would you like?\n");
@@ -193,7 +242,6 @@ public class Order {
         //Choose toppings
         System.out.format("What toppings would you like on your %s?\n\n", newPizza.getItemName());
 
-        boolean validSauce = false;
         while(true){
             List<MenuItem> toppings = menu.getMenuItemList().get("Toppings");
             for(int i = 0; i < toppings.size(); i++) {
@@ -217,6 +265,13 @@ public class Order {
         addItem(newPizza);
     }
 
+    /**
+     * Displays the current order.
+     *
+     * Loops through the contents of <var>orderItems</var> and displays the price and description of each
+     * {@link MenuItem}. Finally, the sum total of all item prices on the order is printed to the console
+     * via {@link #getOrderTotal()}.
+     */
     public void show(){
         System.out.println("\nYour order: \n");
 

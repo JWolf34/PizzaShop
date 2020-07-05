@@ -1,14 +1,14 @@
-package shop.menu.pizza.topping.sauce;
+package shop.menu.pizza.topping.extra;
 
 import shop.menu.pizza.topping.Topping;
 
-public abstract class Sauce extends Topping {
+public abstract class Extra extends Topping {
 
     final String name;
     final int calories;
     final double price;
 
-    public Sauce(String name, int calories, double price){
+    public Extra(String name, int calories, double price){
         this.name = name;
         this.calories = calories;
         this.price = price;
