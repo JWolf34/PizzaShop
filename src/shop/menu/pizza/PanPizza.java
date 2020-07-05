@@ -9,7 +9,7 @@ public class PanPizza extends Pizza {
      */
     public PanPizza(){
         super();
-    };
+    }
 
     /**
      * Creates an instance of PanPizza of size {@param size} and with toppings {@param toppings}.
@@ -36,7 +36,7 @@ public class PanPizza extends Pizza {
     /**
      * Returns an instance of {@code PanPizza} with given size {@param size}.
      *
-     * @param size The size of the new {@Pizza}. S, M, L, or XL.
+     * @param size The size of the new {@code Pizza}. S, M, L, or XL.
      *
      * @return A new instance of {@code PanPizza} with given size {@param size}.
      */

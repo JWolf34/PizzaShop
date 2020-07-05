@@ -9,7 +9,7 @@ public class StuffedCrustPizza extends Pizza {
      */
     public StuffedCrustPizza(){
         super();
-    };
+    }
 
     /**
      * Creates an instance of StuffedCrustPizza of size {@param size} and with toppings {@param toppings}.
@@ -36,7 +36,7 @@ public class StuffedCrustPizza extends Pizza {
     /**
      * Returns an instance of {@code StuffedCrustPizza} with given size {@param size}.
      *
-     * @param size The size of the new {@Pizza}. S, M, L, or XL.
+     * @param size The size of the new {@code Pizza}. S, M, L, or XL.
      *
      * @return A new instance of {@code StuffedCrustPizza} with given size {@param size}.
      */

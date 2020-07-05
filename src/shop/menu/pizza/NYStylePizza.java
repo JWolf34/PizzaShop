@@ -2,12 +2,6 @@ package shop.menu.pizza;
 
 import shop.menu.pizza.topping.Topping;
 
-import java.lang.reflect.Array;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
 public class NYStylePizza extends Pizza {
 
     /**
@@ -15,7 +9,7 @@ public class NYStylePizza extends Pizza {
      */
     public NYStylePizza(){
         super();
-    };
+    }
 
     /**
      * Creates an instance of NYStylePizza of size {@param size} and with toppings {@param toppings}.
@@ -42,7 +36,7 @@ public class NYStylePizza extends Pizza {
     /**
      * Returns an instance of {@code NYStylePizza} with given size {@param size}.
      *
-     * @param size The size of the new {@Pizza}. S, M, L, or XL.
+     * @param size The size of the new {@code Pizza}. S, M, L, or XL.
      *
      * @return A new instance of {@code NYStylePizza} with given size {@param size}.
      */

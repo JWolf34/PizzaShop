@@ -5,9 +5,8 @@ import shop.menu.pizza.topping.Topping;
 
 import java.awt.*;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Abstract class {@code Pizza} implements the {@link MenuItem} interface. Includes shared functionality
@@ -18,12 +17,12 @@ public abstract class Pizza implements MenuItem {
     double price;
     String size;
     int calories;
-    List<Topping> toppings = new ArrayList<Topping>();
+    List<Topping> toppings = new ArrayList<>();
 
     /**
      * Blank constructor to initialize class for display from {@link Menu}.
      */
-    public Pizza (){};
+    public Pizza (){}
 
     /**
      * Create a new Pizza instance. Should always be called by a super() call from a {@code Pizza} subclass
@@ -47,12 +46,14 @@ public abstract class Pizza implements MenuItem {
         this.price = -1;
 
         if(toppings.length > 0){
-            for (Topping top : toppings) {
-                this.toppings.add(top);
+            this.toppings.addAll(Arrays.asList(toppings));
 
-            }
+            //Legacy code
+
+            //for (Topping top : toppings) {
+            //  this.toppings.add(top);
         }
-    };
+    }
 
     /**
      * Adds a given {@link Topping} {@param top} to the <var>this.toppings</var> class variable.
@@ -61,20 +62,21 @@ public abstract class Pizza implements MenuItem {
      */
     public void addTopping(Topping top){
         toppings.add(top);
-    };
+    }
 
     /**
      * Not sure what to do here yet. Placeholder method in the event it becomes useful later
      */
     public void cook(){
         //What do we do here
-    };
+    }
 
     /**
      * Assigns a value {@param p} to <var>this.price</var>. If <var>this.price</var> is less than
      * 0 (specifically its default placeholder value of -1), assign the value of <var>this.price</var>
      * to {@param p}. Else, leave <var>this.price</var> unchanged.
-     * @param p
+     *
+     * @param p The price to which the value of <var>this.price</var> will be set to
      */
     protected void setPrice(double p){
         if(price < 0){
@@ -89,7 +91,7 @@ public abstract class Pizza implements MenuItem {
      */
     public double getPrice(){
         return price;
-    };
+    }
 
     /**
      * Returns a String with the value of <var> this.size</var>.
@@ -98,7 +100,7 @@ public abstract class Pizza implements MenuItem {
      */
     public String getSize(){
         return size;
-    };
+    }
 
     /**
      * Returns an int with the value of <var>this.calories</var>.
@@ -107,7 +109,7 @@ public abstract class Pizza implements MenuItem {
      */
     public int getCalories(){
         return calories;
-    };
+    }
 
     /**
      * Abstract method to be overridden by subclasses. Should return the price of a {@code Pizza} subclass given
@@ -132,9 +134,9 @@ public abstract class Pizza implements MenuItem {
      * Abstract method to be overridden by subclasses. Should return a new instance of the {@code Pizza}
      * subclass instantiated with {@param size}.
      *
-     * @param size The size of the new {@Pizza}. S, M, L, or XL.
+     * @param size The size of the new {@code Pizza}. S, M, L, or XL.
      *
-     * @return A new instance of the given {@Pizza} subclass.
+     * @return A new instance of the given {@code Pizza} subclass.
      */
     public abstract Pizza getNewPizza(String size);
 
@@ -163,7 +165,7 @@ public abstract class Pizza implements MenuItem {
         }
 
         return sizeString;
-    };
+    }
 
     /**
      * Builds a String of all {@link Topping} elements in {@param tops}. Iterates through each element of
@@ -182,7 +184,7 @@ public abstract class Pizza implements MenuItem {
         String delim = ", ";
 
         for(Topping top : tops){
-            if(top.getItemName() != tops.get(tops.size()-1).getItemName()){
+            if(top.getItemName().equals(tops.get(tops.size()-1).getItemName())){
                 sb.append(top.getItemName());
                 sb.append(delim);
             }
@@ -213,6 +215,6 @@ public abstract class Pizza implements MenuItem {
         else{
             return String.format("%s %s with %s", this.getSizeString(this.size), this.getItemName(), this.getToppingsString(this.toppings));
         }
-    };
+    }
 
 }

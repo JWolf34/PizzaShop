@@ -9,7 +9,7 @@ public class DeepDishPizza extends Pizza {
      */
     public DeepDishPizza(){
         super();
-    };
+    }
 
     /**
      * Creates an instance of DeepDishPizza of size {@param size} and with toppings {@param toppings}.
@@ -36,7 +36,7 @@ public class DeepDishPizza extends Pizza {
     /**
      * Returns an instance of {@code DeepDishPizza} with given size {@param size}.
      *
-     * @param size The size of the new {@Pizza}. S, M, L, or XL.
+     * @param size The size of the new {@code Pizza}. S, M, L, or XL.
      *
      * @return A new instance of {@code DeepDishPizza} with given size {@param size}.
      */
