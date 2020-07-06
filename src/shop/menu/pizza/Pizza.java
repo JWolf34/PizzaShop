@@ -184,7 +184,7 @@ public abstract class Pizza implements MenuItem {
         String delim = ", ";
 
         for(Topping top : tops){
-            if(top.getItemName().equals(tops.get(tops.size()-1).getItemName())){
+            if(!top.getItemName().equals(tops.get(tops.size()-1).getItemName())){
                 sb.append(top.getItemName());
                 sb.append(delim);
             }

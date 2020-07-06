@@ -108,7 +108,7 @@ public class Order {
                 System.out.println("Invalid input. Please enter a number.");
             }
         }
-        removeItem(index);
+        removeItem(index-1);
     }
 
     /**
