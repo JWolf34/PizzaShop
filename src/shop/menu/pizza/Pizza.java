@@ -25,7 +25,7 @@ public abstract class Pizza implements MenuItem {
     public Pizza (){}
 
     /**
-     * Create a new Pizza instance. Should always be called by a super() call from a {@code Pizza} subclass
+     * Create a new {@code Pizza} instance. Should always be called by a super() call from a {@code Pizza} subclass
      * constructor. Assigns a value to <var>this.size</var> and sets default value of <var>this.price</var>.
      *
      * <var>this.price</var> will be updated to a positive value via the subclass's override of the

@@ -1,7 +1,13 @@
 package shop.menu.pizza.topping;
 
 import shop.menu.MenuItem;
+import shop.menu.pizza.topping.sauce.Sauce;
+import shop.menu.pizza.topping.cheese.Cheese;
 
+/**
+ * Abstract class {@code Topping} implements the {@link MenuItem} interface. Includes shared functionality
+ * for all {@code Topping} subclasses such as {@link Sauce} and {@link Cheese}.
+ */
 public abstract class Topping implements MenuItem {
 
     /**
